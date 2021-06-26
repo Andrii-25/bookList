@@ -1,1 +1,1 @@
-web: node jsonserver/server.js
+web: node jsonserver/server.js & npm start
