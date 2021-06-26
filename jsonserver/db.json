@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "title": "The C Programming Language",
+      "author": "Dennis M. Ritchie and Brian W. Kernighan",
+      "category": "Computers & Tech",
+      "ISBN": "0131101633",
+      "id": 1
+    },
+    {
+      "title": "fdgdfgdfg",
+      "author": "dfgdfg",
+      "ISBN": "3434234234",
+      "category": "Business",
+      "id": 2
+    },
+    {
+      "title": "234234234",
+      "author": "234234234",
+      "ISBN": "3423423423423",
+      "id": 3,
+      "category": "Business"
+    },
+    {
+      "title": "sdgfgdfg",
+      "author": "fgdfgdfg",
+      "category": "Cooking",
+      "ISBN": "4324234234",
+      "id": 4
+    },
+    {
+      "title": "gffdgfdgfdgdfgdfg",
+      "author": "dfgdfgdfgfdgdfg",
+      "category": "Cooking",
+      "ISBN": "234234234234",
+      "id": 5
+    },
+    {
+      "title": "dfgdfgdfgdfg",
+      "author": "dfgdfgdfgdfg",
+      "category": "Computers & Tech",
+      "ISBN": "342343242342342",
+      "id": 6
+    },
+    {
+      "title": "324234234234",
+      "author": "dfgdfgdfgdfgdfg",
+      "category": "Comics",
+      "ISBN": "4234234234234234",
+      "id": 7
+    },
+    {
+      "title": "234234234",
+      "author": "dfdfgdfgdfg",
+      "category": "Comics",
+      "ISBN": "324234234234234324234",
+      "id": 8
+    }
+  ]
+}
