@@ -10,7 +10,7 @@ function BookTable() {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch(`https://demo-book-list.herokuapp.com/api/db`)
+        fetch(`http://localhost:8000/api/db`)
           .then(res => res.json())
           .then(result => {
               setBooks(result.books);
@@ -22,7 +22,7 @@ function BookTable() {
           });
 
           async function remove(id) {
-            await fetch(`https://demo-book-list.herokuapp.com/api/books/${id}`, {
+            await fetch(`http://localhost:8000/api/books/${id}`, {
               method: 'DELETE',
               headers: {
                 'Accept': 'application/json',

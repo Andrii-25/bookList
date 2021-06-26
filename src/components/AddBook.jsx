@@ -28,7 +28,7 @@ function AddBook(props) {
 
     useEffect(() => {
         if(props.match.params.id !== 'new') {
-        fetch(`https://demo-book-list.herokuapp.com/api/books/${props.match.params.id}`)
+        fetch(`http://localhost:8000/api/books/${props.match.params.id}`)
           .then(res => res.json())
           .then(result => {
               setBook(result);
@@ -77,7 +77,7 @@ function AddBook(props) {
         const isValid = validate();
     
         if(isValid) {
-        await fetch((book.id) ? `https://demo-book-list.herokuapp.com/api/books/${book.id}` : `https://demo-book-list.herokuapp.com/api/books`, {
+        await fetch((book.id) ? `http://localhost:8000/api/books/${book.id}` : `http://localhost:8000/api/books`, {
           method: (book.id) ? 'PUT' : 'POST',
           headers: {
             'Content-Type': 'application/json'

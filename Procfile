@@ -1,1 +1,1 @@
-web: npx json-server --watch -p 8000 db.json
+web: node jsonserver/server.js
