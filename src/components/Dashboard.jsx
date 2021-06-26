@@ -1,14 +1,14 @@
-import React from 'react';
-import Header from './Header';
-import BookTable from './BookTable';
+import React from "react";
+import Header from "./Header";
+import BookTable from "./BookTable";
 
 function Dashboard() {
-    return (
-        <div id="main-block">
-            <Header></Header>
-            <BookTable />
-        </div>
-    )
+	return (
+		<div id="main-block">
+			<Header></Header>
+			<BookTable />
+		</div>
+	);
 }
 
-export default Dashboard
+export default Dashboard;
